@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C31AB4529C614E600419B39 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB633EE264976940007047C /* opencv2.framework */; };
+		0CB25F8229DC605900930E9A /* CVCBase.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA568D1264C778B00C36944 /* CVCBase.h */; };
+		0CB25F8329DC606E00930E9A /* CVCImgCodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = EC67AC38265C10B300D78360 /* CVCImgCodecs.h */; };
+		0CB25F8429DC607600930E9A /* CVCPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA568D4264D5F7E00C36944 /* CVCPrivate.h */; };
+		0CB25F8529DC607F00930E9A /* CVCTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA568D5264D8C2000C36944 /* CVCTypes.h */; };
 		C72A52B22675332E00EFC4C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72A52B12675332E00EFC4C4 /* AVFoundation.framework */; };
 		C72A52B62675336C00EFC4C4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72A52B52675336C00EFC4C4 /* CoreVideo.framework */; };
 		C72A52B82675337B00EFC4C4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72A52B72675337B00EFC4C4 /* CoreMedia.framework */; };
@@ -212,7 +216,11 @@
 				ECA568D0264C6AD900C36944 /* CVCCore.h in Headers */,
 				ECB633E1264975860007047C /* OpenCVC.h in Headers */,
 				EC67AC3E265C1C4300D78360 /* CVCImgProc.h in Headers */,
+				0CB25F8229DC605900930E9A /* CVCBase.h in Headers */,
+				0CB25F8529DC607F00930E9A /* CVCTypes.h in Headers */,
 				C72A534C26765AA600EFC4C4 /* CVCPhoto.h in Headers */,
+				0CB25F8429DC607600930E9A /* CVCPrivate.h in Headers */,
+				0CB25F8329DC606E00930E9A /* CVCImgCodecs.h in Headers */,
 				C72A52D826756F7400EFC4C4 /* CVCObjectDetect.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ECB633D8264975860007047C /* Build configuration list for PBXProject "OpenCVC" */;
+			buildConfigurationList = ECB633D8264975860007047C /* Build configuration list for PBXProject "OpenCVC-m" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -539,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECB633D8264975860007047C /* Build configuration list for PBXProject "OpenCVC" */ = {
+		ECB633D8264975860007047C /* Build configuration list for PBXProject "OpenCVC-m" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB633E6264975860007047C /* Debug */,

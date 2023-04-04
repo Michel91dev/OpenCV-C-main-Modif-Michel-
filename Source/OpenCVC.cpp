@@ -36,7 +36,7 @@ int CVCwaitKey(int delay)
 CVCVideoCapture CVCVideoCaptureCreate(int camNo) // 🔴⚠️ Updated Void by "int NumCam) so I can Choose the Webcam
 {
 	try {
-		cv::VideoCapture* videoCapture = new cv::VideoCapture(camNo); // 🔴⚠️ 0 was hardoced une autre Webcam !!
+		cv::VideoCapture* videoCapture = new cv::VideoCapture(1); // 🔴⚠️ 0 was hardcoded une autre Webcam !!
 		return (CVCVideoCapture)videoCapture; // CVCVideoCapture qui est donc le nom de l'alias d'un pointeur, donc renvoie un pointeur
 	}
 	catch (...) {}
