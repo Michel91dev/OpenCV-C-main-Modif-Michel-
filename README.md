@@ -18,7 +18,10 @@ has been released under the Apache 2.0 license.
 
 * Some structures (ie. CVCMat) must be manualy allocated and deallocated with their create/free functions. (ie. CVCMatCreate, CVCMatFree). If a function *returns* a manually allocated structure, the return value must be manually deallocated.
 
-2023 0403 I'm making some modifications gradually
-* compilation for Intel AND **ARM** Mac processors
-* Adding a Webcam choice for CVCVideoCaptureCreate(int camNo)
 
+// -----------------
+Michel Safars 2023 0403
+
+ I'm making some modifications gradually
+* The Dynamic Library libOpenCVC.dylib also work not for Intel as well as **ARM** Processors Macs
+* Adding a Webcam choice for CVCVideoCaptureCreate(int camNo). This allows to chose the Webcam to be used (and multiple camera at the same time too)
